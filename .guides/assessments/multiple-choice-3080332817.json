@@ -1,0 +1,52 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-3080332817",
+	"source": {
+		"name": "monitoring the error rate",
+		"showName": false,
+		"instructions": "**When monitoring the error rate, it's important to track the number of errors or failed requests and calculate the ratio of errors to total requests.**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "50549b4f-7e6b-d973-02d2-17faf2433879",
+				"correct": true,
+				"answer": "True "
+			},
+			{
+				"_id": "8059eb92-a4c1-9c8e-2252-c47de0d7a1c3",
+				"correct": false,
+				"answer": "False"
+			}
+		],
+		"guidance": "It is essential to track the number of errors or failed requests and calculate the ratio of errors to total requests. This helps ensure that the batch processing implementation is efficient and reliable.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"monitor.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "monitor.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,55 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-217718461",
+	"source": {
+		"name": "Batch processing",
+		"showName": false,
+		"instructions": "**Which of the following is NOT a benefit of batch processing in the context of the ChatGPT API?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "68cbe253-9c33-7c4f-dff5-7c2d4ec28490",
+				"correct": false,
+				"answer": " Improved Efficiency"
+			},
+			{
+				"_id": "f405478d-7521-7d4a-a634-35bde073d5b7",
+				"correct": false,
+				"answer": "Reduced Latency"
+			},
+			{
+				"_id": "4a7b6288-e5c2-782b-7641-fcd2357e6d5b",
+				"correct": false,
+				"answer": "Better Cost Management"
+			},
+			{
+				"_id": "f975abff-1fa1-5108-f2dd-581e8ee09135",
+				"correct": true,
+				"answer": "Enhanced Security"
+			}
+		],
+		"guidance": " The given lesson page does not mention enhanced security as a benefit of batch processing. The benefits discussed are improved efficiency, reduced latency, and better cost management.\n\n",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

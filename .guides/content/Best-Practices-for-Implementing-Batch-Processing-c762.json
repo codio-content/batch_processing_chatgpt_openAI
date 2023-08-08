@@ -1,0 +1,17 @@
+{
+	"id": "c762a77c-20b6-6ab9-7224-66bc511624d3",
+	"title": "Best Practices for Implementing Batch Processing",
+	"files": [
+		{
+			"path": "#tabs",
+			"action": "close"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "1-panel"
+}

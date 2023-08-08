@@ -1,0 +1,54 @@
+{
+	"type": "code-output-compare",
+	"taskId": "code-output-compare-133047321",
+	"source": {
+		"name": "Code",
+		"showName": false,
+		"instructions": "When ready to submit click the button below",
+		"command": "python GradeEx.py.guides/secure/GradeEx.py",
+		"preExecuteCommand": "",
+		"options": {
+			"timeout": 30,
+			"ignoreCase": true,
+			"ignoreWhitespaces": true,
+			"ignoreNewline": true,
+			"matchSubstring": false
+		},
+		"guidance": "```python\ndef GenerateBatch(prompts):\n    response = openai.Completion.create(\n        engine=\"text-davinci-002\",  # Select the engine\n        prompt=prompts,\n        max_tokens=100,  # Limit the response length\n\n    )\n\n    responses = [(choice.text.strip(), choice.finish_reason) for choice in response.choices]\n\n    return responses\n\n```",
+		"showGuidanceAfterResponseOption": {
+			"type": "Never"
+		},
+		"maxAttemptsCount": 0,
+		"points": 20,
+		"showExpectedAnswer": true,
+		"arePartialPointsAllowed": false,
+		"sequence": [
+			{
+				"arguments": "",
+				"input": "",
+				"output": "",
+				"showFeedback": false,
+				"feedback": ""
+			}
+		],
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Standard Code Test"
+				}
+			],
+			"files": [
+				"batch_processing.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "batch_processing.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

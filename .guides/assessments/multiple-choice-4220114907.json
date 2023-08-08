@@ -1,0 +1,52 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-4220114907",
+	"source": {
+		"name": "n parameter Batch processing",
+		"showName": false,
+		"instructions": "**True or False:**\nWhen implementing batch processing with the ChatGPT API, you should set the 'n' parameter in the API call to the number of prompts in the list.",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "9c23f68e-e957-f088-c1fe-d30f068637ba",
+				"correct": false,
+				"answer": "True"
+			},
+			{
+				"_id": "2cced3cb-38c7-e9d9-40ab-44eac5ed379a",
+				"correct": true,
+				"answer": "False"
+			}
+		],
+		"guidance": "In the example, the 'n' parameter is set to 1, which means that only one response will be generated for each prompt. However, the 'n' parameter is not used to control the number of prompts in the list for batch processing, as my previous response mistakenly indicated. Instead, the prompts are processed in a loop, and the batch processing is effectively achieved by processing multiple prompts in the same script, though not in a single API call.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [
+				"temp.py"
+			],
+			"opened": [
+				{
+					"type": "file",
+					"content": "temp.py"
+				}
+			]
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

@@ -1,0 +1,17 @@
+{
+	"id": "a2d126d2-b189-ac8e-5d1f-95097a72dadd",
+	"title": " Implementing Batch Processing with the ChatGPT API",
+	"files": [
+		{
+			"path": "temp.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "2-panels"
+}

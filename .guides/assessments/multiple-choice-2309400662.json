@@ -1,0 +1,55 @@
+{
+	"type": "multiple-choice",
+	"taskId": "multiple-choice-2309400662",
+	"source": {
+		"name": "implementing batch processing",
+		"showName": false,
+		"instructions": "**Which of the following is NOT a best practice for implementing batch processing with the ChatGPT API?**",
+		"multipleResponse": false,
+		"isRandomized": false,
+		"answers": [
+			{
+				"_id": "7543b801-c9a5-f391-d68e-caa8415f33f4",
+				"correct": false,
+				"answer": "Choose an optimal batch size"
+			},
+			{
+				"_id": "82894112-38d4-5bec-985a-341fd4e00792",
+				"correct": false,
+				"answer": "Adapt to rate limits and quotas"
+			},
+			{
+				"_id": "80156693-7e83-4bfc-3389-e582f192f1ae",
+				"correct": true,
+				"answer": "Always use the maximum batch size allowed"
+			},
+			{
+				"_id": "08f80ad3-2fa6-db6e-c5d0-fc2c9e629405",
+				"correct": false,
+				"answer": "Handle variable-length responses\n\n"
+			}
+		],
+		"guidance": "Always use the maximum batch size allowed. Using the maximum batch size allowed is not a best practice, as it may exceed API limits or result in timeouts. Instead, developers should choose an optimal batch size considering factors such as API rate limits, available system resources, and response time requirements.",
+		"showGuidanceAfterResponseOption": {
+			"type": "Attempts",
+			"passedFrom": 2
+		},
+		"maxAttemptsCount": 0,
+		"showExpectedAnswer": true,
+		"points": 20,
+		"incorrectPoints": 0,
+		"arePartialPointsAllowed": false,
+		"metadata": {
+			"tags": [
+				{
+					"name": "Assessment Type",
+					"value": "Multiple Choice"
+				}
+			],
+			"files": [],
+			"opened": []
+		},
+		"bloomsObjectiveLevel": "",
+		"learningObjectives": ""
+	}
+}

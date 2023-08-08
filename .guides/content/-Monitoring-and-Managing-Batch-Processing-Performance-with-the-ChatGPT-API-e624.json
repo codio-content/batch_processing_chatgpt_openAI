@@ -1,0 +1,17 @@
+{
+	"id": "e62419c9-7947-d33c-41be-81cdd972861d",
+	"title": " Monitoring and Managing Batch Processing Performance with the ChatGPT API",
+	"files": [
+		{
+			"path": "monitor.py",
+			"action": "open"
+		}
+	],
+	"path": [],
+	"type": "page",
+	"contentType": "markdown",
+	"teacherOnly": false,
+	"closeTerminalSession": true,
+	"learningObjectives": "",
+	"layout": "2-panels"
+}

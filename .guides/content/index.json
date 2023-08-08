@@ -1,0 +1,23 @@
+{
+	"title": "Batch processing",
+	"theme": "light",
+	"scripts": [],
+	"lexikonTopic": "",
+	"suppressPageNumbering": true,
+	"useSubmitButtons": true,
+	"useMarkAsComplete": true,
+	"hideMenu": false,
+	"allowGuideClose": false,
+	"collapsedOnStart": false,
+	"hideSectionsToggle": false,
+	"hideBackToDashboard": false,
+	"protectLayout": false,
+	"order": [
+		"Learning-Objectives-0638",
+		"Understanding-Batch-Processing-in-the-Context-of-the-ChatGPT-API-23d4",
+		"-Implementing-Batch-Processing-with-the-ChatGPT-API-a2d1",
+		"Best-Practices-for-Implementing-Batch-Processing-c762",
+		"-Monitoring-and-Managing-Batch-Processing-Performance-with-the-ChatGPT-API-e624",
+		"Coding-Exercise-0971"
+	]
+}
